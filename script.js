@@ -11,10 +11,10 @@ var addLetter = function wordBuilder() {
   listItem.textContent = input.value;
 
   letters.appendChild(listItem);
-  input.value = ' ';
+  input.value = '';
 
 }
 
-console.log(letters.length);
+console.log(input.value);
 
 button.addEventListener('click', addLetter);
